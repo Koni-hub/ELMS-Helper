@@ -1,0 +1,26 @@
+# Local credentials and ELMS browser session
+_system/config.json
+_system/.browser-profile/
+
+# Local environment, logs, and generated student work
+_system/.venv/
+_system/logs/
+output/
+cf.py
+_system/audit-run.ps1
+
+# Optional third-party Poppler binaries (install separately if needed)
+_system/tools/poppler/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local browser diagnostics and captured ELMS content
+_system/dashboard.png
+_system/dom-dashboard*.json
+_system/diagnose.py
+_system/dump-*.py
+_system/probe-*.py

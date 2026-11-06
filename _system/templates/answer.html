@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Answer</title>
+<style>
+  @page { size: A4; margin: 1in; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #000000;
+  }
+  h1 { font-size: 14pt; font-weight: bold; margin: 0 0 2pt 0; text-align: center; }
+  .meta { font-size: 11pt; text-align: center; margin: 0 0 18pt 0; color: #000000; }
+  .rule { border: 0; border-top: 1px solid #000000; margin: 0 0 18pt 0; }
+  p { margin: 0 0 8pt 0; text-align: justify; }
+  h2 { font-size: 12.5pt; margin: 14pt 0 6pt 0; }
+  ol, ul { margin: 0 0 8pt 0; padding-left: 22pt; }
+  li { margin: 0 0 4pt 0; }
+  a { color: #000000; text-decoration: underline; }
+  svg { display: block; width: 100%; max-width: 100%; height: auto; margin: 8pt auto 14pt auto; }
+  svg text { font-family: Arial, sans-serif; }
+  svg, table, .diagram { break-inside: avoid; page-break-inside: avoid; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { border: 1px solid #333; padding: 4pt; vertical-align: top; }
+</style>
+</head>
+<body>
+  <h1>{{TITLE}}</h1>
+  <div class="meta">{{META}}</div>
+  <hr class="rule">
+  <div id="answer">
+{{BODY}}
+  </div>
+</body>
+</html>
